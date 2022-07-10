@@ -15,9 +15,7 @@ int main() {
     else if (x < 0 && y < 0) {
         result = 3;
     }
-    else if (x > 0 && y < 0) {
-        result = 4;
-    }
+    else result = 4;
 
     cout << result;
     return 0;
